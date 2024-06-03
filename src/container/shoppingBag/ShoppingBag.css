@@ -1,0 +1,211 @@
+body{
+  font-family:  GucciSans, Helvetica, Arial, sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+.image-content{
+  background-image: url(../../assets/ServicePages/Spain_saffron.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backface-visibility: hidden;
+  height: inherit;
+  overflow: hidden;
+  max-height: inherit;
+
+}
+.heading{
+  text-align: center;
+  padding-top:11%;
+  padding-bottom:2.5%;
+  font-size: 20px;
+  
+}
+h1{
+  color: white;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.main{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  padding:50px 150px;
+  
+}
+.sub-title{
+  display:flex;
+  justify-content:space-between;
+}
+.eyebrow1,.save,.heading2,.summary,.Paypal,.amazon,.checkout{
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.696);
+}
+.print{
+  padding-top: 9px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.info{
+  display: flex;
+  border-top: 1px solid black;
+}
+.product_img{
+  width:200px;
+  vertical-align: middle;
+  margin-top: 40px;
+}
+.description{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+.mini{
+  font-size: 16px;
+}
+.variation{
+  color: rgb(97, 95, 95);
+    font-size: 13px;
+    font-weight:400;
+    padding: 30px 0 20px 0;
+    
+}
+
+.present{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.immediate-purchase{
+  color: rgb(97, 95, 95);
+    font-size: 12.5px;
+    font-weight:400;
+    padding: 0 0 10px 0;
+}
+.edit,.remove{
+  border-right: 2px solid black;
+  padding: 0 4px 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.qty{
+  margin-left: 90px;
+  padding-top: 35px;
+}
+.amount{
+  margin-left: 90px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+.selection{
+  border-bottom: 1px solid black;
+  margin-bottom: 320px;
+}
+
+.summary{
+  margin-left:30px;
+}
+.bill{
+  border-top: 1px solid rgba(0, 0, 0, 0.245);
+  padding-bottom: 40px;
+}
+.dollar{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.buttons{
+padding:0 10px;
+margin-right: 10px;
+}
+.subtotal,.shipping-charge,.tax,.total,.view{
+  display: flex;
+  justify-content: space-between;
+}
+.summary{
+  border: 1px solid gray;
+  padding: 5px 30px;
+  align-content: center;
+  margin-top: 45px;
+}
+.details{
+  text-align:justify;
+  padding-bottom: 10px;
+   color: rgb(97, 95, 95);
+    font-size: 13px;
+    font-weight:400;
+}
+.or{
+  text-align: center;
+}
+.checkout{
+  width: 270px;
+  padding: 10px 5px;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.Paypal{
+  width:270px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border: 3px solid black;
+  background-color: white;
+}
+.amazon{
+  width:270px;
+  padding: 10px 5px;
+  border: 3px solid black;
+  background-color:#f5cd5f;
+}
+.space{
+  display:grid;
+  grid-template-columns: 1fr 30%;
+  padding:0 150px;
+}
+.experiance2{
+    font-size: 12px;
+    margin-left: 70px;
+    padding-bottom: 5%;
+    font-weight: 400;
+}
+.help-menu{
+  border: 1px solid gray;
+  padding: 20px 20px;
+  align-content: center;
+  margin: 0 10px 0 25px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.help,.payment,.options{
+  display: flex;
+  justify-content: space-between;
+
+}
+a{
+  color: rgba(0, 0, 0, 0.696) ;
+}
+.gurantee,.finishing{
+  border-right: 2px solid black;
+  padding: 0 4px 0 4px;
+}
+.experiance{
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+.footer-p{
+  color: rgb(97, 95, 95);
+  font-size: 13px;
+  font-weight:400;
+}
+
+.footer{
+  text-align: center;
+}

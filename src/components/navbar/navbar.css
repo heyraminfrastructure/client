@@ -1,0 +1,84 @@
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background: transparent;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.7s;
+  z-index: 1000;
+}
+
+.navbar:hover,
+.navbar.scrolled {
+  background: white;
+  color: black;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 0 18px;
+  font-size: 0.8em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.navbar ul li a i {
+  font-size: 1em;
+}
+
+/* .navbar i.nav-hid{
+    padding-left: 0px;
+} */
+
+.navbar:hover ul li a,
+.navbar.scrolled ul li a {
+  color: black;
+}
+
+.navbar .brand {
+  /* font-family: saveurSans; */
+  font-family: Gucci Sans Pro,sans-serif;
+  font-size: 1.4em;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar:hover .brand,
+.navbar.scrolled .brand {
+  color: black;
+}
+
+.navbar i.fa-bars,
+.navbar i.fa-user,
+.navbar i.fa-bag-shopping {
+  color: white;
+  font-size: inherit;
+  transition: color 0.3s;
+}
+
+.navbar:hover i.fa-bars,
+.navbar:hover i.fa-user,
+.navbar:hover i.fa-bag-shopping,
+.navbar.scrolled i.fa-bars,
+.navbar.scrolled i.fa-user,
+.navbar.scrolled i.fa-bag-shopping {
+  color: black;
+}

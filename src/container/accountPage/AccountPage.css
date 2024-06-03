@@ -1,0 +1,63 @@
+.accPage{
+    font-family: GucciSans, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.accPage_signin{
+  text-align: center;
+  padding-top: 100px;
+
+}
+.accPage_button3{
+  padding: 15px 70px;
+  
+}
+form{
+  size: 40px;
+}
+.accPage_option{
+  padding: 10px;
+}
+
+.accPage_accHead{
+    color: black;
+}
+
+input{
+  padding: 20px 140px 20px 5px;
+}
+.accPage_button3{
+  background-color: black;
+  color: whitesmoke;
+}
+.accPage_button3:hover{
+  color: white;
+}
+.accPage_button1,.accPage_button2{
+  background-color: white;
+  color: rgb(10, 16, 21);
+}
+.accPage_button1:hover, .accPage_button2:hover{
+  color: black;
+}
+.accPage_accHead,.accPage_accHead2,.accPage_accHead3{
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: -.03em;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.accPage_style2
+{text-align: center;
+}
+
+
+.accPage_style1
+{width: 25px; height: 25px}
